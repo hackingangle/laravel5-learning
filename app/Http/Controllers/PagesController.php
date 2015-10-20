@@ -24,7 +24,12 @@ class PagesController extends Controller
         // ]);
 
         $name = 'wanggang3';
-        return view('pages.about', compact('name'));
+        $interests = [
+            'Computer',
+            'Books',
+            'Music',
+        ];
+        return view('pages.about', compact('name', 'interests'));
     }
 
     /**
