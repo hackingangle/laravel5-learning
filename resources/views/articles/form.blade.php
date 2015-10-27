@@ -1,3 +1,6 @@
+<!-- Temporary -->
+{!! Form::hidden('user_id', 2) !!}
+
 <!-- title Form Input -->
 <div class="form-group">
     {!! Form::label('title', 'title:') !!}
